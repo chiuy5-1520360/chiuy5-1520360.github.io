@@ -52,18 +52,30 @@
 			
 		}
 
+		.image-container {
+			width: 432px;
+			height: 324px;
+			position: relative;
+			text-align: center;
+			vertical-align: center;
+		}
 		.image {
 			float: left;
 			text-align: center;
+			vertical-align: center;
 		}
 
 		.image-text {
 			position: absolute;
+			top: 0; right: 0;
+	    	bottom: 0; left: 0;
+	    	width:432px; height:324px;
 			text-align: center;
-			vertical-align:middle;
-			color:rgba(255,255,255,0.8);
-			width:432px;
-			height:324px;
+			vertical-align: center;
+			background-color: :rgba(0,0,0,0.8);
+			padding: 10px 10px;
+			display: inline-block;
+			
 		}
 
 		p.random {
@@ -98,6 +110,7 @@
 	<div class="linkbox">
 		<a class = "one" href="https://chiuy5-1520360.github.io">  Home  </a>
 		<a class = "one" href="https://chiuy5-1520360.github.io/embeddingOriginalWork">  Embbedding Original Work </a>
+		<a class = "one" href="https://chiuy5-1520360.github.io/tags.html"> Tags </a>
 		<a class = "one" href="https://chiuy5-1520360.github.io/someCss">  someCss </a>
 	</div>
 
@@ -111,12 +124,12 @@
 				<img class="displayed" src="http://clv.h-cdn.co/assets/15/22/768x518/gallery-1432664914-strawberry-facts1.jpg">
 				<br></br>
 
-		<div class="banana">
+		<div class="image-container">
 				<div class="image">
 					<img width="432" height="324" src="http://koolaufarmers.com/wordpress/wp-content/uploads/2015/07/banana-trees-289022372.jpg">
-					<div class="image-text">
-						bananas grow on trees</p>
-					</div>
+						<div class="image-text">
+							bananas grow on trees</p>
+						</div>
 				</div>
 		</div>
 
