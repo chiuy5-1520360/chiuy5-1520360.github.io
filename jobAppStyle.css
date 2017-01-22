@@ -10,7 +10,8 @@ fieldset {
 	margin-right: auto;
 	width: 800px;
 	background-color: rgba(0,158,150, 0.5);
-	border-style: none;
+	border: dotted 2px white;
+	padding-bottom: 30px;
 }	
 
 legend {
@@ -28,7 +29,7 @@ legend {
 
 ul {
 	list-style-type: none;
-	padding-left: 535px
+	padding-left: 450px
 
 }
 
@@ -45,17 +46,13 @@ li {
 	text-align: left;
 }
 
-
-
-
 input, select {
 	display: inline-block;
 	float: float;		
 }
 
-
-input {
-	width: 136px;
+select {
+	width:173px;
 }
 
 
@@ -68,4 +65,9 @@ body {
 
 .field2, .field3 {
 	text-align: center;
+}
+
+textarea {
+	padding-bottom: 10px;
+	border: dotted 2px #8bcc00;
 }
