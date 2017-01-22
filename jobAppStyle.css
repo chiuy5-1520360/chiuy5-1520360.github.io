@@ -59,6 +59,7 @@ select {
 body {
 	color: yellow;
 	background-image: url(woven.png);
+	background-attachment: fixed;
 	font-family: arial;
 }
 
